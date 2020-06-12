@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                sh 'cd /home/chris/Dokumente/local-jenkins/my_file.py'
+                sh 'cd /home/chris/Dokumente/local-jenkins/'
                 sh 'ls'
             }
         }
